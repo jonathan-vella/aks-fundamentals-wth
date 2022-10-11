@@ -20,7 +20,7 @@
 		- `kubectl exec -it <mongo-db pod name> bash`
 	- Execute these commands:
 		```
-		mongo
+		mongosh
 		show dbs
 		use <databasename>
 		db.<table/collection>.find()
