@@ -1,0 +1,13 @@
+# Agenta
+- Introduction - NA (10 mins)
+- AKS Fundamentals Presentation - GP (20 mins)
+- Challenge 03: Introduction To Kubernetes - Team (20 mins)
+- Challenge 04: Your First Deployment - Team (45 mins)
+- Coffee Break (10 mins)
+- Challenge 05: Scaling and High Availability - Team (30 mins)
+- Challenge 06: Deploy MongoDB to AKS - Team (15 mins)
+- Challenge 07: Updates and Rollbacks - Team(60 mins)
+- Lunch Break (45 mins)
+- Challenge 08: Storage - Team (45 mins)
+- Challenge 09: Networking and Ingress - Team (30 mins)
+- Wrap Up - CG (30 mins)
