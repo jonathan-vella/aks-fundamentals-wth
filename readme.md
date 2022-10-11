@@ -18,21 +18,21 @@ In this hack you will solve a common challenge for companies migrating to the cl
 
 - Challenge 00: **[Prerequisites - Ready, Set, GO!](Student/Challenge-00.md)**
 	 - Prepare your workstation to work with Azure, Docker containers, and AKS
-- Challenge 01: **[Introduction To Kubernetes](Student/Challenge-03.md)**
+- Challenge 03: **[Introduction To Kubernetes](Student/Challenge-03.md)**
 	 - Install the Kubernetes CLI tool, deploy an AKS cluster in Azure, and verify it is running.
-- Challenge 02: **[Your First Deployment](Student/Challenge-04.md)**
+- Challenge 04: **[Your First Deployment](Student/Challenge-04.md)**
 	 - Pods, Services, Deployments: Getting your YAML on! Deploy the "FabMedical" app to your AKS cluster.
-- Challenge 03: **[Scaling and High Availability](Student/Challenge-05.md)**
+- Challenge 05: **[Scaling and High Availability](Student/Challenge-05.md)**
 	 - Flex Kubernetes' muscles by scaling pods, and then nodes. Observe how Kubernetes responds to resource limits.
-- Challenge 04: **[Deploy MongoDB to AKS](Student/Challenge-06.md)**
+- Challenge 06: **[Deploy MongoDB to AKS](Student/Challenge-06.md)**
 	 - Deploy MongoDB to AKS from a public container registry.
-- Challenge 05: **[Updates and Rollbacks](Student/Challenge-07.md)**
+- Challenge 07: **[Updates and Rollbacks](Student/Challenge-07.md)**
 	 - Deploy v2 of FabMedical to AKS via rolling updates, roll it back, then deploy it again using the blue/green deployment methodology.
-- Challenge 06: **[Storage](Student/Challenge-08.md)**
+- Challenge 08: **[Storage](Student/Challenge-08.md)**
 	 - Delete the MongoDB you created earlier and observe what happens when you don't have persistent storage. Fix it!
-- Challenge 07: **[Networking and Ingress](Student/Challenge-10.md)**
+- Challenge 10: **[Networking and Ingress](Student/Challenge-10.md)**
 	 - Explore integrating DNS with Kubernetes services and explore different ways of routing traffic to FabMedical by configuring an Ingress Controller.
-- Challenge 08: **[Operations and Monitoring](Student/Challenge-11.md)**
+- Challenge 11: **[Operations and Monitoring](Student/Challenge-11.md)**
 	 - Explore the logs provided by Kubernetes using the Kubernetes CLI, configure Azure Monitor and build a dashboard that monitors your AKS cluster
 
 ## Prerequisites
