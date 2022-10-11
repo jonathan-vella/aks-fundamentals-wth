@@ -1,6 +1,6 @@
 # Challenge 03 - Introduction To Kubernetes
 
-[< Previous Challenge](./Challenge-02.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-04.md)
+[< Previous Challenge](./Challenge-00.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-04.md)
 
 ## Introduction
 
@@ -8,14 +8,15 @@ Now it is time to introduce the container orchestrator we all came for: Kubernet
 
 ## Description
 
-In this challenge we will be provisioning our first Kubernetes cluster using the Azure Kubernetes Service (AKS). This will give us an opportunity to learn how to use the `kubectl` kubernetes command line tool, as well as using the Azure CLI to issue commands to AKS.
+In this challenge we will be provisioning our first Kubernetes cluster using the Azure Kubernetes Service (AKS). This will give us an opportunity to learn how to use the `kubectl` kubernetes command line tool, as well as using the Azure CLI to issue commands to AKS. You will also learn how to monitor your applications by viewing performance metrics and identify bottlenecks.
 
 - Install the Kubernetes command line tool (`kubectl`).
 	- **Hint:** This can be done easily with the Azure CLI
 - Use the Azure CLI to create a new, multi-node AKS cluster with the following specifications:
 	- Use the default Kubernetes version used by AKS.
 	- The cluster should use kubenet (ie: basic networking).  
-	- The cluster should use a managed identity
+	- The cluster should use a managed identity.
+    - Enable "Azure Monitor for Containers" .
 	- The cluster should use the maximum number of Availability Zones for improved worker node reliability.
 	- The cluster should attach to your ACR created in Challenge 2 (if you didn't do Challenge 2, you don't need to attach to anything).
       - **NOTE:** Attaching an ACR requires you to have "Owner" or "Azure account administrator" role on the Azure subscription. If this is not possible then someone who is an Owner can do the attach for you after you create the cluster.
@@ -34,7 +35,9 @@ Once the cluster is running:
 1. Show that a new, multi-node AKS kubernetes cluster exists.
 1. Show that its nodes are running in multiple availability zones.
 1. Show that it is using basic networking (kubenet)
+1. Show Azure Monitor is working.
 
 ## Learning Resources
 
 - [Azure Kubernetes Service (AKS) and availability zones](https://docs.microsoft.com/en-us/azure/aks/availability-zones)
+- [Azure Monitoring - Container insights overview](https://docs.microsoft.com/en-us/azure/azure-monitor/insights/container-insights-overview)
