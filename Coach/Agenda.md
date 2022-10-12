@@ -1,4 +1,4 @@
-# Agenta
+# Agenda
 - Introduction - NA (10 mins)
 - AKS Fundamentals Presentation - GP (20 mins)
 - Challenge 03: Introduction To Kubernetes - Team (20 mins)
