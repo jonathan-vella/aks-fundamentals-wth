@@ -1,6 +1,6 @@
 # Challenge 10 - Networking and Ingress
 
-[< Previous Challenge](./Challenge-09.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-11.md)
+[< Previous Challenge](./Challenge-08.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-11.md)
 
 ## Introduction
 
@@ -19,10 +19,10 @@ In the previous challenges, we accessed our service via an IP address.  Humans p
 4. Discuss with your coach how you might link a 'real' DNS name (eg, conferenceinfo.fabmedical.com) with this "azure-specific" DNS name (eg, conferenceinfo.eastus.cloudapp.azure.com)
 
 ## Part 2a: Ingress Controller
-Switching gears, we will now start working with ingress controllers, which allow you to route http requests.
+Switching gears, we will now start working with ingress controllers, which allow you to route http requests. You can use Helm to install nginx ingress controller. 
 
 1. Delete the existing content-web service.
-2. Create an nginx ingress controller. (Hint: use helm)
+2. Create an nginx ingress controller. (Hint: use helm, reference learning resources below)
 3. Deploy the content-web service and create an Ingress resource for it. 
 	- The reference template (which will need editing!) can be found in the `Challenge-10` folder of the `Resources.zip` package: `template-web-ingress-deploy.yaml`
 4. Show your coach that you can access the ingress in your browser via IP address
@@ -39,8 +39,9 @@ Just like in part 1, you will now add a metadata annotation to the ingress contr
 
 ## Success Criteria
 
-1. Verify the nginx Ingress Controller is installed in your cluster
-2. You've recreated a new Ingress for content-web that allows access through a domain name.
+1. Verify that `helm version` shows that you have it installed locally.
+2. Verify the nginx Ingress Controller is installed in your cluster
+3. You've recreated a new Ingress for content-web that allows access through a domain name.
 
 ## Learning Resources
 
@@ -48,3 +49,5 @@ _Make sure you review these! (Hint Hint)_
 * [Apply a DNS label to a service](https://docs.microsoft.com/en-us/azure/aks/static-ip#apply-a-dns-label-to-the-service)
 * [Create a basic ingress controller](https://docs.microsoft.com/en-us/azure/aks/ingress-basic)
 * [Ingress controller DNS labels](https://docs.microsoft.com/en-us/azure/aks/ingress-static-ip)
+* [An Introduction to Helm, the Package Manager for Kubernetes](https://www.digitalocean.com/community/tutorials/an-introduction-to-helm-the-package-manager-for-kubernetes)
+* [Installing Helm](https://helm.sh/docs/intro/install/)

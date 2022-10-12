@@ -20,7 +20,7 @@ In this challenge you'll be deploying a v2 of the FabMedical application to your
 	- Logs for content-init will provide the detailed logs showing whether it was able to successfully connect and add the contents to the MongoDB. You can use kubectl (or the Azure Portal) to check the logs.
 	- You can also verify that the MongoDB contains the FabMedical data after content-init job has completed.  Hint:
     	- Connect to the mongodb pod
-    	- Use the mongodb command `show dbs`
+    	- Use the mongosh command `show dbs`
 
 
 ### Rolling update

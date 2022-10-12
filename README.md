@@ -18,10 +18,6 @@ In this hack you will solve a common challenge for companies migrating to the cl
 
 - Challenge 00: **[Prerequisites - Ready, Set, GO!](Student/Challenge-00.md)**
 	 - Prepare your workstation to work with Azure, Docker containers, and AKS
-- Challenge 01: **[Got Containers?](Student/Challenge-01.md)**
-	 - Package the "FabMedical" app into a Docker container and run it locally.
-- Challenge 02: **[The Azure Container Registry](Student/Challenge-02.md)**
-	 - Deploy an Azure Container Registry, secure it and publish your container.
 - Challenge 03: **[Introduction To Kubernetes](Student/Challenge-03.md)**
 	 - Install the Kubernetes CLI tool, deploy an AKS cluster in Azure, and verify it is running.
 - Challenge 04: **[Your First Deployment](Student/Challenge-04.md)**
@@ -34,8 +30,6 @@ In this hack you will solve a common challenge for companies migrating to the cl
 	 - Deploy v2 of FabMedical to AKS via rolling updates, roll it back, then deploy it again using the blue/green deployment methodology.
 - Challenge 08: **[Storage](Student/Challenge-08.md)**
 	 - Delete the MongoDB you created earlier and observe what happens when you don't have persistent storage. Fix it!
-- Challenge 09: **[Helm](Student/Challenge-09.md)**
-	 - Install Helm tools, customize a sample Helm package to deploy FabMedical, publish the Helm package to Azure Container Registry and use the Helm package to redeploy FabMedical to AKS.
 - Challenge 10: **[Networking and Ingress](Student/Challenge-10.md)**
 	 - Explore integrating DNS with Kubernetes services and explore different ways of routing traffic to FabMedical by configuring an Ingress Controller.
 - Challenge 11: **[Operations and Monitoring](Student/Challenge-11.md)**
